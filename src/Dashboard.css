@@ -1,0 +1,45 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  color: white;
+  padding: 1%;
+  text-shadow: 0 0 3px #000;
+}
+
+label {
+  margin: 2%;
+}
+
+.analytics-title {
+  border-bottom: 1px solid white;
+  margin-top: 5%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+article {
+  width: 48%;
+}
+
+.card {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 1% 3% 2% 3%;
+  font-size: 1.2em;
+}
+
+.nav-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}

@@ -1,0 +1,45 @@
+.form { 
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  align-items: center;
+  color: white;
+  padding: 5%;
+}
+
+.category-section,
+.address-section {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin: 2%;
+  font-size: 1em;
+}
+
+.category-select {
+  height: 25px;
+  font-size: 1em;
+}
+
+input {
+  height: 25px;
+  font-size: 1em;
+}
+
+.submit-btn {
+  width: 50%;
+  height: 40px;
+  font-size: 1em;
+  margin: 8% 2% 2% 2%;
+}
+
+.input-error {
+  text-align: center;
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+
